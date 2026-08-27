@@ -18,9 +18,7 @@ Over 466 million people worldwide are deaf or hard of hearing, and around 70 mil
 
 The system costs **~USD 50** in components, runs entirely on consumer hardware (a laptop + Arduino Uno), and needs no cloud-mandatory services, proprietary hardware, or wearable sensors.
 
-<p align="center">
-  <img src="images/robotic_hand_assembled.png" alt="Assembled 3D-printed robotic hand" width="380">
-</p>
+
 
 ---
 
@@ -41,11 +39,11 @@ The system costs **~USD 50** in components, runs entirely on consumer hardware (
 
 | Camera Decode — live landmark tracking | Type → Hand |
 |---|---|
-| <img src="images/gui_camera_decode.png" alt="Camera Decode tab showing live hand landmark tracking" width="420"> | <img src="images/gui_type_to_hand.png" alt="Type to Hand tab" width="420"> |
+
 
 | Camera Decode — idle / camera not started | Compact window layout |
 |---|---|
-| <img src="images/gui_camera_decode_idle.png" alt="Camera Decode tab idle state" width="420"> | <img src="images/gui_camera_decode_compact.png" alt="Compact GUI layout" width="420"> |
+
 
 The GUI has four tabs — **Camera Decode**, **Type → Hand**, **Gesture Library**, and **Gesture Match** — plus Arduino COM-port selection, camera index/URL selection (including phone IP-camera support), a live confidence bar, hold timer, spelling buffer, and an AI-reconstructed sentence box.
 
@@ -55,7 +53,7 @@ The GUI has four tabs — **Camera Decode**, **Type → Hand**, **Gesture Librar
 
 | Live demo | Servo assembly inside palm | ASL alphabet reference |
 |---|---|---|
-| <img src="images/robotic_hand_demo.png" alt="Robotic hand connected to laptop running the recognition software" width="300"> | <img src="images/servo_assembly.png" alt="Five MG90S servos mounted inside the palm" width="300"> | <img src="images/asl_alphabet_chart.png" alt="American Sign Language alphabet reference chart" width="300"> |
+
 
 📹 Full build demo: [LinkedIn post](https://www.linkedin.com/posts/rajesh-kotipalli-b82602288_robotics-arduino-servomotor-activity-7447674706284974080-w6u1)
 
